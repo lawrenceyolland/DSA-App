@@ -1,0 +1,29 @@
+{
+  "name": "dsa-app",
+  "version": "1.0.0",
+  "description": "react app to show various dsa examples",
+  "main": "./src/app.tsx",
+  "scripts": {
+    "start": "esbuild ./src/app.tsx --bundle --servedir=static/ --outdir=static/js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild app.tsx --bundle --minify --outdir=static/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrenceyolland/DSA-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lawrenceyolland/DSA-App/issues"
+  },
+  "homepage": "https://github.com/lawrenceyolland/DSA-App#readme",
+  "dependencies": {
+    "@types/react": "^18.0.38",
+    "@types/react-dom": "^18.0.11",
+    "esbuild": "^0.17.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
