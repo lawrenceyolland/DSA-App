@@ -1,1 +1,1 @@
-# A React app to show demo various DSA concepts
+# A React app to demo various DSA concepts
